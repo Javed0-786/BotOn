@@ -1,0 +1,36 @@
+{"intents": [
+     {"tag": "greetings",
+      "patterns": ["hello","Hello","hey","Hey","Hi","hi","hii","Hii","good day","Good Day","What's up"],
+      "responses":["Hello!","Hey","What Can I Do For You?"]
+     },
+ {"tag": "goodbye",
+      "patterns": ["Cya","See you later","goodbye"," i am leaving","Have a good day","bye","cao","see ya"],
+      "responses":["GoodBye","Talk TO YOU Later","Sad to see you go :("]
+ },
+ {"tag": "age",
+      "patterns": ["how old","how old is BotOn","what is your age","how old are you?","age?"],
+      "responses":["My Owner BotOn is Developed on 04-09-2022"]
+ },
+ {"tag": "name",
+      "patterns": ["what is your name?","what should i call you?","whats your name?","who are you?","can yuo tell me your name?","name?"],
+      "responses":["You Can Call Me BotOn","I'm Boton","I'm BotOn assistance of BotOn private limited!"]
+ },
+     {"tag": "about",
+      "patterns": ["i would like to compare things","what are your products?","what you do?","bots?","bots work?","what your company do?"],
+      "responses":["Our Company Name is Boton we offers diffrent types of bots for diffrent works.",
+                   "we belongs from Boton and we offer diffrent bots for diffrents things which helps you to make your work easy.",
+                   "we have bots related to do diffrent things like play music,search image,price comparision"]
+      },
+ {"tag": "bots",
+      "patterns": ["how many bots and functions?","functions?","bots?"],
+      "responses":["There are 3 types of Bots: 1-tyusic,2-compri,3-semage"]
+ },
+ {"tag": "hours",
+      "patterns": ["when you are guys open","what are your hours?","hours of operations?"],
+      "responses":["24/7"]
+ },
+ {"tag": "connect",
+      "patterns": ["how can we connect to you?","social media","links","join","how to join BotOn"],
+      "responses":["You Can Join US From Instagram:@BotOn"]
+ }
+]}
